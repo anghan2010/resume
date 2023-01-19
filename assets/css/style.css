@@ -11932,11 +11932,15 @@
       width: 100%;
     }
   }
+
+  main .portfolio-wrapper .portfolio-item a {
+    width: 100%;
+    text-align: center;
+  }
   
   main .portfolio-wrapper .portfolio-item-img {
     max-width: 100%;
     height: 280px;
-    width: 100%;
   }
   
   main .portfolio-wrapper .portfolio-item-details {
@@ -11950,12 +11954,14 @@
     font-weight: 700;
     line-height: 1;
     margin-bottom: 5px;
+    text-align: left;
   }
   
   main .portfolio-wrapper .portfolio-item-description {
     font-size: 14px;
     line-height: 1;
     margin-bottom: 0;
+    text-align: left;
   }
   
   main .blog-section {
