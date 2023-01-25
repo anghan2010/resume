@@ -11243,9 +11243,10 @@
   }
   
   aside .profile-img-wrapper img {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+    object-fit: cover;
   }
   
   aside .profile-name {
