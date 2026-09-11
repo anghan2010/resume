@@ -22,6 +22,6 @@ main .service-card .service-description {
 aside .widget .widget-title,
 main .time-line-item-title,
 main .service-card .service-title,
-main .contact-section p {
+main .contact-section p{
     font-size: 18px;
 }
