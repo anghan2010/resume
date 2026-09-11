@@ -11663,19 +11663,6 @@
     padding-bottom: 15px;
   }
   
-  main .service-card:first-child,
-  main .service-card:nth-child(3) {
-    border-right: 1px solid #f3f3f3;
-  }
-  
-  @media (max-width: 991px) {
-  
-    main .service-card:first-child,
-    main .service-card:nth-child(3) {
-      border-right: 0;
-    }
-  }
-  
   @media (max-width: 991px) {
     main .service-card {
       border-bottom: 1px solid #f3f3f3;
@@ -11709,7 +11696,7 @@
   main .service-card .service-description {
     font-size: 14px;
     font-weight: 300;
-    max-width: 250px;
+    max-width: 350px;
     margin-bottom: 0;
   }
   
