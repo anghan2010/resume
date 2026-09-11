@@ -10,12 +10,13 @@
     <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
 </head>
 
 <body>
     <header>
-        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto invisible"><img src="./assets/images/share.svg" alt="share" class="btn-img">
-            SHARE</button>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto invisible">
+            <img src="./assets/images/share.svg" alt="share" class="btn-img"> SHARE</button>
         <nav class="collapsible-nav" id="collapsible-nav">
             <a href="./" class="nav-link">Resume</a>
             <a href="./portfolio.html" class="nav-link active">PORTFOLIO</a>
@@ -26,25 +27,26 @@
     <div class="content-wrapper">
         <aside>
             <div class="profile-img-wrapper">
-                <img src="./assets/images/my-profile.jpg" alt="profile">
+                <img src="./assets/images/clear-profile.jpg" alt="profile">
             </div>
             <h1 class="profile-name">Anghan Mehul</h1>
             <div class="text-center">
                 <span class="badge badge-white badge-pill profile-designation">Full Stack Developer</span>
             </div>
             <nav class="social-links">
-                <a href="live:1352403ae92bd718" class="social-link" target="_blank"><i class="fab fa-skype"></i></a>
                 <a href="https://www.linkedin.com/in/mehul-anghan/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="mailto:anghanmehul111@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
                 <a href="https://www.facebook.com/anghan.mehul" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </nav>
-            <div class="widget">
-                <h5 class="widget-title">personal information</h5>
-                <div class="widget-content">
-                    <p><b>BIRTHDAY:</b> 20 October 1995</p>
-                    <p><b>PHONE:</b> <a href="tel:+917405401513">740 540 1513</a></p>
-                    <p><b>MAIL:</b> <a href="mailto:anghanmehul111@gmail.com">anghanmehul111@gmail.com</a></p>
-                    <p><b>Location:</b> Surat, Gujrat, IND</p>
+            <div class="widget card personal-info">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">PERSONAL INFO</h5>
+                        <p><img src="./assets/images/birthday.svg" alt="birthday"> <span>20 October 1995</span></p>
+                        <p><img src="./assets/images/phone.svg" alt="phone"> <span><a href="tel:+917405401513">740 540 1513</a></span></p>
+                        <p><img src="./assets/images/email.svg" alt="email"> <span><a href="mailto:anghanmehul111@gmail.com">anghanmehul111@gmail.com</a></span></p>
+                        <p><img src="./assets/images/location.svg" alt="location"> <span>Surat, Gujarat, IND</span></p>
+                    </div>
                 </div>
             </div>
             <div class="widget card d-md-block d-none">
@@ -72,42 +74,43 @@
         <main>
             <section class="portfolio-section">
                 <h2 class="section-title text-center">PORTFOLIO</h2>
+
                 <hr>
-                <h4 class="mb-4">HTML/CSS</h4>
+                <h4 class="mb-4">SHOPIFY</h4>
                 <div class="portfolio-wrapper">
                     <figure class="portfolio-item hover-box">
-                        <a href="https://loanquo.com/" target="_blank">
-                            <img src="./assets/images/loanquo.png" alt="project" class="portfolio-item-img">
+                        <a href="https://miabellaitaly.com/" target="_blank">
+                            <img src="./assets/images/miabellaitaly.png" alt="project" class="portfolio-item-img">
                             <figcaption class="portfolio-item-details overlay">
-                                <h5 class="portfolio-item-title">Loanquo</h5>
-                                <p class="portfolio-item-description">Loan, Banking</p>
+                                <h5 class="portfolio-item-title">Miabella</h5>
+                                <p class="portfolio-item-description">Branding, Jewellery, Sales</p>
                             </figcaption>
                         </a>
                     </figure>
                     <figure class="portfolio-item hover-box">
-                        <a href="https://www.theborrowingclub.com/" target="_blank">
-                            <img src="./assets/images/theborrowingclub.png" alt="project" class="portfolio-item-img">
+                        <a href="https://www.stripmakeup.com/" target="_blank">
+                            <img src="./assets/images/stripmakeup.png" alt="project" class="portfolio-item-img">
                             <figcaption class="portfolio-item-details overlay">
-                                <h5 class="portfolio-item-title">The Borrowing Club</h5>
-                                <p class="portfolio-item-description">Banking, Sales</p>
+                                <h5 class="portfolio-item-title">Strip Makeup</h5>
+                                <p class="portfolio-item-description">MakeUp, Bramds, Sales</p>
                             </figcaption>
                         </a>
                     </figure>
                     <figure class="portfolio-item hover-box">
-                        <a href="https://onlinevideoconverter.com/" target="_blank">
-                            <img src="./assets/images/onlinevideoconverter.png" alt="project" class="portfolio-item-img">
+                        <a href="https://energymuse.com/" target="_blank">
+                            <img src="./assets/images/energymuse.png" alt="project" class="portfolio-item-img">
                             <figcaption class="portfolio-item-details overlay">
-                                <h5 class="portfolio-item-title">Online Video Converter</h5>
-                                <p class="portfolio-item-description">Video converter, Download</p>
+                                <h5 class="portfolio-item-title">Energymuse</h5>
+                                <p class="portfolio-item-description">Stones, Sales</p>
                             </figcaption>
                         </a>
                     </figure>
                     <figure class="portfolio-item hover-box">
-                        <a href="https://www.clubflyers.com/" target="_blank">
-                            <img src="./assets/images/clubflyers.png" alt="project" class="portfolio-item-img">
+                        <a href="https://ezmobiledata.com/" target="_blank">
+                            <img src="./assets/images/ezmobile.png" alt="project" class="portfolio-item-img">
                             <figcaption class="portfolio-item-details overlay">
-                                <h5 class="portfolio-item-title">Club Flyers</h5>
-                                <p class="portfolio-item-description">Branding, Sales</p>
+                                <h5 class="portfolio-item-title">EZ Mobile</h5>
+                                <p class="portfolio-item-description">Internet, Sales</p>
                             </figcaption>
                         </a>
                     </figure>
@@ -173,41 +176,41 @@
                 </div>
 
                 <hr>
-                <h4 class="mb-4">SHOPIFY</h4>
+                <h4 class="mb-4">HTML/CSS</h4>
                 <div class="portfolio-wrapper">
                     <figure class="portfolio-item hover-box">
-                        <a href="https://miabellaitaly.com/" target="_blank">
-                            <img src="./assets/images/miabellaitaly.png" alt="project" class="portfolio-item-img">
+                        <a href="https://loanquo.com/" target="_blank">
+                            <img src="./assets/images/loanquo.png" alt="project" class="portfolio-item-img">
                             <figcaption class="portfolio-item-details overlay">
-                                <h5 class="portfolio-item-title">Miabella</h5>
-                                <p class="portfolio-item-description">Branding, Jewellery, Sales</p>
+                                <h5 class="portfolio-item-title">Loanquo</h5>
+                                <p class="portfolio-item-description">Loan, Banking</p>
                             </figcaption>
                         </a>
                     </figure>
                     <figure class="portfolio-item hover-box">
-                        <a href="https://www.stripmakeup.com/" target="_blank">
-                            <img src="./assets/images/stripmakeup.png" alt="project" class="portfolio-item-img">
+                        <a href="https://www.theborrowingclub.com/" target="_blank">
+                            <img src="./assets/images/theborrowingclub.png" alt="project" class="portfolio-item-img">
                             <figcaption class="portfolio-item-details overlay">
-                                <h5 class="portfolio-item-title">Strip Makeup</h5>
-                                <p class="portfolio-item-description">MakeUp, Bramds, Sales</p>
+                                <h5 class="portfolio-item-title">The Borrowing Club</h5>
+                                <p class="portfolio-item-description">Banking, Sales</p>
                             </figcaption>
                         </a>
                     </figure>
                     <figure class="portfolio-item hover-box">
-                        <a href="https://energymuse.com/" target="_blank">
-                            <img src="./assets/images/energymuse.png" alt="project" class="portfolio-item-img">
+                        <a href="https://onlinevideoconverter.com/" target="_blank">
+                            <img src="./assets/images/onlinevideoconverter.png" alt="project" class="portfolio-item-img">
                             <figcaption class="portfolio-item-details overlay">
-                                <h5 class="portfolio-item-title">Energymuse</h5>
-                                <p class="portfolio-item-description">Stones, Sales</p>
+                                <h5 class="portfolio-item-title">Online Video Converter</h5>
+                                <p class="portfolio-item-description">Video converter, Download</p>
                             </figcaption>
                         </a>
                     </figure>
                     <figure class="portfolio-item hover-box">
-                        <a href="https://ezmobiledata.com/" target="_blank">
-                            <img src="./assets/images/ezmobile.png" alt="project" class="portfolio-item-img">
+                        <a href="https://www.clubflyers.com/" target="_blank">
+                            <img src="./assets/images/clubflyers.png" alt="project" class="portfolio-item-img">
                             <figcaption class="portfolio-item-details overlay">
-                                <h5 class="portfolio-item-title">EZ Mobile</h5>
-                                <p class="portfolio-item-description">Internet, Sales</p>
+                                <h5 class="portfolio-item-title">Club Flyers</h5>
+                                <p class="portfolio-item-description">Branding, Sales</p>
                             </figcaption>
                         </a>
                     </figure>
@@ -255,8 +258,9 @@
                 </div>
 
             </section>
-            <footer>Live Resume @ <a href="https://mehulthevenom.com/" target="_blank"
-                rel="noopener noreferrer">Mehul Anghan</a>. All Rights Reserved 2023</footer>
+            <footer> For more information, connect with me on 
+                <a href="https://www.linkedin.com/in/mehul-anghan/" target="_blank" rel="noopener noreferrer"> LinkedIn</a>. © 2026 Mehul Anghan. All Rights Reserved.
+            </footer>
         </main>
     </div>
     <script src="./assets/vendors/jquery/dist/jquery.min.js"></script>
