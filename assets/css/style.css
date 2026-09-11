@@ -12014,7 +12014,7 @@
   }
   
   main .contact-section {
-    margin-bottom: 31px;
+    margin-bottom: 30px;
   }
   
   main .contact-section p {
@@ -12032,7 +12032,6 @@
   main .contact-card {
     border: 1px solid #f3f3f3;
     padding: 25px 30px 20px;
-    margin-bottom: 28px;
     width: calc(50% - 12.5px);
   }
   
