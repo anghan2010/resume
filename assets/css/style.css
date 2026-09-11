@@ -11516,6 +11516,7 @@
   aside {
     padding-right: 30px;
     min-width: 260px;
+    flex: 0 0 260px;
   }
   
   @media (max-width: 767px) {
