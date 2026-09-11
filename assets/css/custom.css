@@ -1,11 +1,11 @@
-.personal-info p img {
-    max-width: 18px;
-}
 .personal-info p {
     display: flex;
     align-items: center;
     justify-content: start;
     gap: 10px;
+}
+.personal-info p img {
+    max-width: 18px;
 }
 aside .widget .widget-content {
     font-size: 14px;
@@ -22,6 +22,6 @@ main .service-card .service-description {
 aside .widget .widget-title,
 main .time-line-item-title,
 main .service-card .service-title,
-main .contact-section p{
+main .contact-section p {
     font-size: 18px;
 }
