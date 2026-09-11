@@ -11,7 +11,7 @@ aside .widget .widget-content {
     font-size: 14px;
 }
 main .time-line-item .badge,
-main .time-line-item-content
+main .time-line-item-content {
     font-size: 15px;
 }
 main p,
