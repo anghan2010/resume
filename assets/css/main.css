@@ -383,7 +383,10 @@ button {
 .nav-desktop {
   display: none;
   align-items: center;
-  gap: 0.25rem;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+  min-width: 0;
+  gap: 0.15rem;
 }
 
 .nav-link {
@@ -483,6 +486,13 @@ button {
   padding: 0.85rem 1rem;
   border-radius: var(--radius-md);
   font-size: 1rem;
+}
+
+@media (min-width: 900px) and (max-width: 1120px) {
+  .nav-link {
+    padding: 0.45rem 0.55rem;
+    font-size: 0.8125rem;
+  }
 }
 
 @media (min-width: 900px) {

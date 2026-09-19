@@ -2,14 +2,16 @@
 
 Premium personal site for **Anghan Mehul**, Full Stack Developer (Shopify & WordPress).
 
+Live: [anghan2010.github.io/resume](https://anghan2010.github.io/resume)
+
 ## Pages
 
 | Path | Description |
 |------|-------------|
-| `/resume/` | Professional resume / career profile |
+| `/` | Professional resume / career profile |
 | `/portfolio/` | Selected work with category filters |
 
-Root (`/`) and legacy `portfolio.html` redirect to the pages above.
+The repo is published as a GitHub Pages project site, so the public URL is `https://anghan2010.github.io/resume` (the repo name), not `/resume/resume`. Legacy `portfolio.html` and `/resume/` redirect to the pages above.
 
 ## Stack
 
@@ -24,7 +26,7 @@ Root (`/`) and legacy `portfolio.html` redirect to the pages above.
 npx serve .
 ```
 
-Then visit `/resume/` and `/portfolio/`.
+Then visit `/` and `/portfolio/`.
 
 ## Assets
 
