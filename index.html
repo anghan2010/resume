@@ -3,26 +3,456 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anghan Mehul — Full Stack Developer</title>
-  <meta name="description" content="Anghan Mehul — Full Stack Developer with 8+ years of experience in Shopify, WordPress, and modern web development.">
-  <link rel="icon" type="image/jpeg" href="./assets/images/optimized/avatar.jpg">
-  <link rel="canonical" href="./resume/">
-  <meta http-equiv="refresh" content="0; url=./resume/">
-  <script>location.replace("./resume/");</script>
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      font-family: system-ui, sans-serif;
-      background: #FFFFFF;
-      color: #0B1220;
-    }
-    a { color: #0F766E; font-weight: 600; }
-  </style>
+  <meta name="description" content="Anghan Mehul — Full Stack Developer with 8+ years of experience in Shopify, WordPress, and modern web development. Based in Surat, Gujarat.">
+  <meta name="author" content="Anghan Mehul">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0F766E">
+  <meta property="og:title" content="Anghan Mehul — Full Stack Developer">
+  <meta property="og:description" content="Senior Full Stack Developer specializing in Shopify, WordPress, and custom web development. 150+ completed projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../assets/images/optimized/profile-hero.jpg">
+  <link rel="canonical" href="./">
+  <title>Resume | Anghan Mehul | Full Stack Developer</title>
+  <link rel="icon" type="image/jpeg" href="../assets/images/optimized/avatar.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="../assets/images/optimized/profile-hero.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <script>
+    (function () {
+      var t = localStorage.getItem("am-theme");
+      if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
 </head>
 <body>
-  <p>Redirecting to <a href="./resume/">Resume</a>…</p>
+  <a class="sr-only" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="./">
+        <img class="brand__mark" src="../assets/images/optimized/avatar.jpg" alt="" width="40" height="40" decoding="async">
+        <span class="brand__text">
+          <span class="brand__name">Anghan Mehul</span>
+          <span class="brand__role">Full Stack Developer</span>
+        </span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary">
+        <a class="nav-link is-active" href="./" aria-current="page">Resume</a>
+        <a class="nav-link" href="../portfolio/">Portfolio</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="icon-btn" id="theme-toggle" aria-label="Toggle color theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/>
+          </svg>
+        </button>
+        <button type="button" class="icon-btn nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile">
+    <a class="nav-link is-active" href="./">Resume</a>
+    <a class="nav-link" href="../portfolio/">Portfolio</a>
+    <a class="nav-link" href="#experience">Experience</a>
+    <a class="nav-link" href="#skills">Skills</a>
+    <a class="nav-link" href="#services">Services</a>
+    <a class="nav-link" href="#contact">Contact</a>
+  </nav>
+
+  <main id="main" class="site-main">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="reveal">
+          <p class="hero__eyebrow">8+ years experience</p>
+          <h1 class="hero__title" id="hero-title">Anghan Mehul</h1>
+          <p class="hero__role">Full Stack Developer · Shopify &amp; WordPress</p>
+          <p class="hero__intro">
+            I’m a Web Developer with 8+ years of experience in coding and building digital solutions. I’m passionate about creating world-class, user-friendly, and visually appealing products that not only look great but also make a real impact. I’ve worked on a wide range of projects — from job portals and e-commerce platforms to informative and static websites — tailored to meet unique client requirements. Whether you need support at the idea stage, design direction, or full development, I can be as involved as your project demands.
+          </p>
+          <div class="hero__meta">
+            <span class="hero__meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              Surat, Gujarat, IND
+            </span>
+            <a class="hero__meta-item" href="tel:+917405401513">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.5-1.1a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2z"/></svg>
+              740 540 1513
+            </a>
+            <a class="hero__meta-item word-break" href="mailto:anghanmehul111@gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="m4 7 8 6 8-6"/></svg>
+              anghanmehul111@gmail.com
+            </a>
+          </div>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="mailto:anghanmehul111@gmail.com">Hire Me</a>
+            <a class="btn btn--ghost" href="../portfolio/">View Portfolio</a>
+            <a class="btn btn--soft" href="https://www.linkedin.com/in/mehul-anghan" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero__portrait reveal">
+          <div class="hero__ring" aria-hidden="true"></div>
+          <div class="hero__portrait-frame">
+            <img src="../assets/images/optimized/profile-hero.jpg" alt="Portrait of Anghan Mehul" width="760" height="950" fetchpriority="high" decoding="async">
+            <div class="hero__portrait-badge">
+              <div>
+                <strong>8+ years</strong>
+                Building digital products
+              </div>
+              <div style="text-align:right">
+                <strong>150+</strong>
+                Projects delivered
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section section--alt" id="achievements" aria-labelledby="achievements-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Track record</p>
+          <h2 class="section__title" id="achievements-title">Achievements</h2>
+          <p class="section__desc">Milestones from client work across Shopify, WordPress, and custom web development.</p>
+        </div>
+        <div class="stats reveal-stagger">
+          <article class="stat-card reveal">
+            <img class="stat-card__icon" src="../assets/images/puzzle.svg" alt="" width="36" height="36">
+            <p class="stat-card__value">150+</p>
+            <p class="stat-card__label">Completed Projects</p>
+          </article>
+          <article class="stat-card reveal">
+            <img class="stat-card__icon" src="../assets/images/team.svg" alt="" width="36" height="36">
+            <p class="stat-card__value">80</p>
+            <p class="stat-card__label">Happy Clients</p>
+          </article>
+          <article class="stat-card reveal">
+            <img class="stat-card__icon" src="../assets/images/trophy.svg" alt="" width="36" height="36">
+            <p class="stat-card__value">50+</p>
+            <p class="stat-card__label">Applause Received</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Career</p>
+          <h2 class="section__title" id="experience-title">Professional Experience</h2>
+          <p class="section__desc">From freelance engagements to full-stack product delivery at Marquee Solution.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-item__dot" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <div class="timeline-card__top">
+                <div>
+                  <h3 class="timeline-card__role">Full Stack Developer</h3>
+                  <p class="timeline-card__company">Marquee Solution</p>
+                </div>
+                <span class="timeline-card__date">2019 – Present</span>
+              </div>
+              <p class="timeline-card__body">Working across full-stack web development, building and maintaining scalable digital solutions for businesses and clients. Experienced in Shopify, WordPress, eCommerce, custom development, API integrations, and modern web technologies, with a focus on performance, usability, and reliable project delivery.</p>
+              <details>
+                <summary>Key focus areas</summary>
+                <div class="timeline-card__extra">
+                  <div class="skill-chips" aria-label="Related technologies">
+                    <span class="chip">Shopify</span>
+                    <span class="chip">Shopify Plus</span>
+                    <span class="chip">WordPress</span>
+                    <span class="chip">JavaScript</span>
+                    <span class="chip">Full Stack</span>
+                  </div>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-item__dot" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <div class="timeline-card__top">
+                <div>
+                  <h3 class="timeline-card__role">Freelancer</h3>
+                  <p class="timeline-card__company">Surat Based Company</p>
+                </div>
+                <span class="timeline-card__date">2018 – 2019</span>
+              </div>
+              <p class="timeline-card__body">Delivered web development solutions for multiple Surat-based businesses, working directly with clients to understand requirements, develop websites, implement custom functionality, and deliver projects tailored to their business needs.</p>
+              <details>
+                <summary>Key focus areas</summary>
+                <div class="timeline-card__extra">
+                  <div class="skill-chips" aria-label="Related technologies">
+                    <span class="chip">Shopify</span>
+                    <span class="chip">Shopify Plus</span>
+                    <span class="chip">Unbounce</span>
+                    <span class="chip">Wix</span>
+                    <span class="chip">HTML</span>
+                    <span class="chip">CSS</span>
+                    <span class="chip">JavaScript</span>
+                    <span class="chip">Web Development</span>
+                  </div>
+                </div>
+              </details>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section--alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Toolkit</p>
+          <h2 class="section__title" id="skills-title">Technical Skills</h2>
+          <p class="section__desc">Technologies and platforms used across client and product work.</p>
+        </div>
+
+        <div class="skills-grid reveal-stagger">
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Shopify &amp; eCommerce</h3>
+            <div class="skill-chips">
+              <span class="chip">Shopify</span>
+              <span class="chip">Shopify Plus</span>
+              <span class="chip">Shopify Liquid</span>
+              <span class="chip">Shopify Themes</span>
+              <span class="chip">Shopify 2.0</span>
+              <span class="chip">Shopify App Integration</span>
+              <span class="chip">WooCommerce</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">CMS &amp; Platforms</h3>
+            <div class="skill-chips">
+              <span class="chip">WordPress</span>
+              <span class="chip">Elementor</span>
+              <span class="chip">ACF</span>
+              <span class="chip">Unbounce</span>
+              <span class="chip">Wix</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title">Frontend</h3>
+            <div class="skill-chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">SCSS / SASS</span>
+              <span class="chip">Tailwind CSS</span>
+              <span class="chip">Bootstrap</span>
+              <span class="chip">JavaScript / jQuery</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">What I do</p>
+          <h2 class="section__title" id="services-title">Services</h2>
+          <p class="section__desc">End-to-end web development, optimization, and ongoing support.</p>
+        </div>
+
+        <div class="services-grid reveal-stagger">
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <img src="../assets/images/shopify.svg" alt="" width="28" height="28">
+            </div>
+            <h3 class="service-card__title">Shopify Development</h3>
+            <p class="service-card__desc">Experienced in Shopify, Shopify 2.0 and Shopify Plus development, with a focus on scalable themes, custom functionality and modular, reusable components.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <img src="../assets/images/wordpress.svg" alt="" width="28" height="28">
+            </div>
+            <h3 class="service-card__title">WordPress Development</h3>
+            <p class="service-card__desc">Experienced in building and customizing WordPress websites, including custom themes, plugins, page builders and integrations to deliver flexible and engaging experiences.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <img src="../assets/images/web-development.svg" alt="" width="28" height="28">
+            </div>
+            <h3 class="service-card__title">Web Development</h3>
+            <p class="service-card__desc">Build modern, user-friendly websites with clean and maintainable code, focusing on functionality, usability and seamless user experiences.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <img src="../assets/images/004-smartphone.svg" alt="" width="28" height="28">
+            </div>
+            <h3 class="service-card__title">Mobile Responsiveness</h3>
+            <p class="service-card__desc">Create responsive websites that look and perform seamlessly across desktops, tablets and mobile devices for a consistent user experience on every screen.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <img src="../assets/images/code-optimization.svg" alt="" width="28" height="28">
+            </div>
+            <h3 class="service-card__title">Code Optimization &amp; Performance</h3>
+            <p class="service-card__desc">Optimize code, scripts and assets to improve website speed, performance and Core Web Vitals while keeping the code clean and maintainable.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <img src="../assets/images/seo.svg" alt="" width="28" height="28">
+            </div>
+            <h3 class="service-card__title">SEO &amp; Technical Improvements</h3>
+            <p class="service-card__desc">Improve technical SEO, site structure, metadata, performance and other on-page factors to make websites more search-engine friendly.</p>
+          </article>
+          <article class="service-card service-card--wide reveal">
+            <div class="service-card__icon">
+              <img src="../assets/images/maintenance.svg" alt="" width="28" height="28">
+            </div>
+            <div>
+              <h3 class="service-card__title">Website Maintenance &amp; Support</h3>
+              <p class="service-card__desc">Provide ongoing maintenance, troubleshooting, bug fixes and improvements to keep websites stable, secure, up to date and performing smoothly.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section--alt" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Background</p>
+          <h2 class="section__title" id="education-title">Education</h2>
+        </div>
+        <div class="edu-grid reveal-stagger">
+          <article class="edu-card reveal">
+            <p class="edu-card__date">2014 – 2017</p>
+            <h3 class="edu-card__title">Bachelor in Civil Engineering</h3>
+            <p class="edu-card__school">Dr. S. & S.S. Gandhi College of Engineering</p>
+            <p class="edu-card__desc">Completed a Bachelor’s degree in Civil Engineering with First Class grades, developing strong analytical, mathematical, and problem-solving skills.</p>
+          </article>
+          <article class="edu-card reveal">
+            <p class="edu-card__date">2016 – 2018</p>
+            <h3 class="edu-card__title">IT Course</h3>
+            <p class="edu-card__school">Red & White Multimedia Classes</p>
+            <p class="edu-card__desc">Completed professional IT training focused on programming and web development, building the technical foundation that led to a career in software development.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personal info -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Profile</p>
+          <h2 class="section__title" id="about-title">Personal Info</h2>
+        </div>
+        <div class="info-grid reveal-stagger">
+          <div class="info-panel reveal">
+            <h3 class="info-panel__title">Contact Details</h3>
+            <ul class="info-list">
+              <li>
+                <img src="../assets/images/birthday.svg" alt="" width="18" height="18">
+                <span>20 October 1995</span>
+              </li>
+              <li>
+                <img src="../assets/images/phone.svg" alt="" width="18" height="18">
+                <a href="tel:+917405401513">740 540 1513</a>
+              </li>
+              <li>
+                <img src="../assets/images/email.svg" alt="" width="18" height="18">
+                <a class="word-break" href="mailto:anghanmehul111@gmail.com">anghanmehul111@gmail.com</a>
+              </li>
+              <li>
+                <img src="../assets/images/location.svg" alt="" width="18" height="18">
+                <span>Surat, Gujarat, IND</span>
+              </li>
+            </ul>
+          </div>
+          <div class="info-panel reveal">
+            <h3 class="info-panel__title">Languages</h3>
+            <ul class="info-list">
+              <li><span>English — <strong>Fluent</strong></span></li>
+              <li><span>Hindi — <strong>Fluent</strong></span></li>
+              <li><span>Gujarati — <strong>Native</strong></span></li>
+            </ul>
+          </div>
+          <div class="info-panel reveal">
+            <h3 class="info-panel__title">Interests</h3>
+            <div class="interest-chips">
+              <span class="chip">Cricket</span>
+              <span class="chip">Writing</span>
+              <span class="chip">Reading</span>
+              <span class="chip">Solo Travelling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--alt" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-block reveal">
+          <div>
+            <h2 class="contact-block__title" id="contact-title">Get in Touch</h2>
+            <p class="contact-block__desc">If you’d like to talk about a project, my work or anything else then get in touch.</p>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="mailto:anghanmehul111@gmail.com">Email Me</a>
+              <a class="btn btn--ghost" href="../portfolio/">See Selected Work</a>
+            </div>
+            <div class="social-row">
+              <a href="https://www.linkedin.com/in/mehul-anghan" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.05c.53-1 1.82-2.05 3.75-2.05 4.01 0 4.75 2.64 4.75 6.07V23h-4v-6.6c0-1.57-.03-3.59-2.19-3.59-2.19 0-2.53 1.71-2.53 3.48V23h-4V8.5z"/></svg>
+              </a>
+              <a href="mailto:anghanmehul111@gmail.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="m4 7 8 6 8-6"/></svg>
+              </a>
+              <a href="https://www.facebook.com/anghan.mehul" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3c-2.76 0-5 2.24-5 5v2H6v4h3v9h4v-9h3.1l.9-4H13V9c0-.55.45-1 1-1z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="contact-cards">
+            <div class="contact-mini">
+              <p class="contact-mini__label">Call Me</p>
+              <a href="tel:+917405401513">+91 740 540 1513</a>
+            </div>
+            <div class="contact-mini">
+              <p class="contact-mini__label">Email Me</p>
+              <a class="word-break" href="mailto:anghanmehul111@gmail.com">anghanmehul111@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>For more information, connect with me on <a href="https://www.linkedin.com/in/mehul-anghan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+      <p>© 2026 Mehul Anghan. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
 </body>
 </html>
